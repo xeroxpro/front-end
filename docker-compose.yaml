@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+   frontend:
+     build: . 
+     image: laroxyl/frontend:latest
+     ports:
+       - 8079
+
